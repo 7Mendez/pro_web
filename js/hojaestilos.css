@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #ccc;
+	background-image: url(../imagenes/fondo.gif);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+
+.captura
+{
+	color: #039;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.celda
+{
+	color: #666;
+	background-color: #FFA;
+}
+
+
+.celdaEncabezado
+{
+	color: #000;
+	background-color: #FFAB00;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align:center;
+	letter-spacing: 1px;
+}
+
+
+
+.encTablas
+{
+	color: #FFFFFF;
+	background-color: #2D83CD;
+	margin: 5pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	LETTER-SPACING: 8px;
+	LINE-HEIGHT: 130%;
+	TEXT-DECORATION: none
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.fondoPie {
+	background-color: #666;
+	color: #FFF;
+}
+fondoGris {
+	background-color: #999;
+}
+.grid {
+	background-color: #FFF;
+	border: thin solid #666;
+}
+
+
+.textoCeldas
+{
+	color: #000000;
+	background-color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.textoCeldasNegritas {
+	color: #000000;
+	background-color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+	
+.textos {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #039;
+	text-align: justify;
+	font-weight: bold;
+}
+
+
+a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF
+	text-align: center;
+	color: #036;
+	font-weight: normal;
+}
+a:visited {
+	color: #000;
+}
+a:hover {
+	color: #900;
+}
+a:active {
+	color: #900;
+}
+
+
+@media all and (min-width:1500px) 
+{
+	body
+	{
+		align:center;
+		width:1500px;
+		margin:auto;
+	}
+}
+
+img
+{
+max-width:100%;
+}
+
+
