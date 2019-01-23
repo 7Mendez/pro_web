@@ -61,19 +61,21 @@
 							<td class="celdaEncabezado" width="25%"><div align="left"></div></td>
 						</tr>
 						
-						<tr>
-						<% 
-						for (int x=1; x<=32; x++) {
-						%>
-						<tr>
-							<td colspan="4" align="center">
-								<img src="imagenes\estados\numeros\titulos\<%=x%>.png">
-							</td>
-						</tr>
+							<tr>
+							<% 
+							for (int x=1; x<=32;x++){%>
+							<tr>
+								<td colspan="4" align="center">
+									<a href="estados.jsp?cve=<%=x%>" target="_parent">
+									<img src= "imagenes/estados/numeros/titulos/<%=x%>.png">
+								
+								</td>
+							</tr>
+							<%
+							}
+						   %>
 					  </tr>
-                       <%
-                   		}
-                   	   %>
+                       
                         
 					</table>
 					<p>

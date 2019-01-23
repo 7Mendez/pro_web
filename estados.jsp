@@ -58,21 +58,65 @@
 							<td class="celdaEncabezado" width="25%"><div align="left"></div></td>
 						</tr>
 						
-						<tr>
-						<% 
-						for (int x=1; x<=32; x++) {
-						%>
-						<tr>
-							<td colspan="4" align="center">
-								<img src="imagenes\estados\numeros\titulos\<%=x%>.png">
-							</td>
-						</tr>
-					  </tr>
-                       <%
-                   		}
-                   	   %>
-                        
 					</table>
+					<% 
+					String nombres[] = new String[32];
+						   nombres[0] ="Aguascalientes";
+						   nombres[1] ="bajaCalifornianorte";
+						   nombres[2] ="bajaCaliforniasur";
+						   nombres[3] ="campeche";
+						   nombres[4] ="chiapas";
+						   nombres[5] ="chihuahua";
+						   nombres[6] ="coahuila";
+						   nombres[7] ="colima";
+						   nombres[8] ="DistritoFederal";
+						   nombres[9] ="durango";
+						   nombres[10] ="edm";
+						   nombres[11] ="guanajuato";
+						   nombres[12] ="guerrero";
+						   nombres[13] ="hidalgo";
+						   nombres[14] ="jalisco";
+						   nombres[15] ="michoacan";
+						   nombres[16] ="morelos";
+						   nombres[17] ="nayarit";
+						   nombres[18] ="nuevoleon";
+						   nombres[19] ="oaxaca";
+						   nombres[20] ="puebla";
+						   nombres[21] ="queretaro";
+						   nombres[22] ="quintanaroo";
+					       nombres[23] ="slp";
+						   nombres[24] ="sinaloa";
+						   nombres[25] ="sonora";
+						   nombres[26] ="tabaco";
+						   nombres[27] ="tamaulipas";
+						   nombres[28] ="tlaxcala";
+						   nombres[29] ="veracurz";
+						   nombres[30] ="yucatan";
+						   nombres[31] ="zacatecas";
+					int cve=request.getParameter("cve")!=null?Integer.parseInt(request.getParameter("cve")):0;
+					int xus=0;
+					xus = cve;
+					%>
+					<table align="center">
+                   	<tr align="center"> 
+                        <td><img src="imagenes\estados\numeros\escudos\<%=xus%>.png"/></td>
+                    </tr> 
+                    <tr align="center"> 
+                         <td><img src="imagenes\estados\numeros\mapas\<%=xus%>.png"/></td>
+                    </tr>
+                    <tr align="center"> 
+                        <td><img src="imagenes\estados\numeros\minimapas\<%=xus%>.gif"/></td>
+                    </tr>
+					<tr align="center"> 
+                        <td><img src="imagenes\estados\numeros\platillos\<%=xus%>.png"/></td>
+                    </tr>
+                    <tr align="center"> 
+                        <td><img src="imagenes\estados\numeros\trajes\<%=xus%>.jpg"/></td>
+                    </tr>
+                    </table>
+                    
+                        
+					
 					<p>
 			  </td>
 			</tr>
